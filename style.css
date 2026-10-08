@@ -1,0 +1,55 @@
+
+ body {
+    background: #050509;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+    letter-spacing: 4px;
+}
+
+#score, #timer {
+    font-size: 22px;
+    margin: 10px;
+}
+
+#alien {
+    font-size: 70px;
+    margin: 20px;
+}
+
+#signal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px;
+}
+
+#signal div {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+button:nth-child(1) { background: green; }
+button:nth-child(2) { background: blue; }
+button:nth-child(3) { background: purple; }
+button:nth-child(4) { background: gold; }
+
+#message {
+    color: #aaa;
+    margin: 25px;
+}
